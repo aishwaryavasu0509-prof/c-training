@@ -1,26 +1,44 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System;
 
-namespace variablesanddatatypes
+namespace DataTypesExample
 {
-    internal class Program
+    class Program
     {
+        // Enum declaration
+        enum DaysOfWeek
+        {
+            Sunday,
+            Monday,
+            Tuesday,
+            Wednesday,
+            Thursday,
+            Friday,
+            Saturday
+        }
+
         static void Main(string[] args)
         {
-            // int value
-            int age = 30;
-            char dummy = 'a';
-            float pi = 3.14e30f;
-            double pii = 3.14e40;
-            string name = "ash";
-            Console.WriteLine(name);
-            Console.WriteLine(dummy);
-            Console.WriteLine(pi);
-            Console.WriteLine(pii);
-            Console.WriteLine(age);
+            // Variables and data types
+            int age = 25; // Integer literal
+            double height = 5.9; // Floating-point literal
+            float weight = 70.5f; // Floating-point literal with 'f' suffix
+            char grade = 'A'; // Character literal
+            string name = "John"; // String literal
+            bool isStudent = true; // Boolean literal
+            decimal price = 99.99m; // Decimal literal with 'm' suffix
+
+            // Enum usage
+            DaysOfWeek today = DaysOfWeek.Monday;
+
+            // Output the values
+            Console.WriteLine($"Name: {name}");
+            Console.WriteLine($"Age: {age}");
+            Console.WriteLine($"Height: {height}");
+            Console.WriteLine($"Weight: {weight}");
+            Console.WriteLine($"Grade: {grade}");
+            Console.WriteLine($"Is Student: {isStudent}");
+            Console.WriteLine($"Price: {price}");
+            Console.WriteLine($"Today is: {today}");
         }
     }
 }
