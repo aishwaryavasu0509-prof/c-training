@@ -1,0 +1,7 @@
+C:\Users\avasuka\Desktop\stringmanipulation\stringmanipulation\bin\Debug\stringmanipulation.exe.config
+C:\Users\avasuka\Desktop\stringmanipulation\stringmanipulation\bin\Debug\stringmanipulation.exe
+C:\Users\avasuka\Desktop\stringmanipulation\stringmanipulation\bin\Debug\stringmanipulation.pdb
+C:\Users\avasuka\Desktop\stringmanipulation\stringmanipulation\obj\Debug\stringmanipulation.csproj.AssemblyReference.cache
+C:\Users\avasuka\Desktop\stringmanipulation\stringmanipulation\obj\Debug\stringmanipulation.csproj.CoreCompileInputs.cache
+C:\Users\avasuka\Desktop\stringmanipulation\stringmanipulation\obj\Debug\stringmanipulation.exe
+C:\Users\avasuka\Desktop\stringmanipulation\stringmanipulation\obj\Debug\stringmanipulation.pdb
